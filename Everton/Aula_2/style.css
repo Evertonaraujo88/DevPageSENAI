@@ -1,0 +1,23 @@
+.titulo{
+    color: greenyellow;
+ text-decoration: underline;
+
+}
+
+#primeiroparagrafo{
+    background-color: yellow;
+    color: black; /*cor da fonte */
+
+    font-weight: bold; /* peso da fonte */
+
+    font-size: 20px; /*tamanho da fonte*/
+
+    /* letter-spacing: 15px; /* espaço entre letras*/ 
+
+   /*  word-spacing: 15px; /*espaçamento entre palavras */ 
+
+}
+
+h1{
+back
+}
