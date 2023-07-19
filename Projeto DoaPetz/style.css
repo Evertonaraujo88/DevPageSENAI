@@ -1,0 +1,119 @@
+/* imports */
+
+@font-face {
+
+    font-family: Montserrat-VariableFont;
+    src: url(./Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fbfbfb;
+  }
+
+  /*** HEADER ***/
+.logo{
+    width: 15vw;
+}
+
+.cabecalho{
+
+background: #099BB3;
+width: 100vw;
+
+}
+.menu_navegacao{
+    width: 85%;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.links_navegacao{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+   
+}
+
+.links_navegacao a{
+    font-family: Montserrat-VariableFont;
+    text-decoration: none;
+    
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFE61A;
+}
+
+.links_navegacao button{
+    width: 140px;
+    height: 40px;
+    
+    border: none;
+    border-radius: 8px;
+    background: #FF0079;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFE61A;
+}
+
+/*** primeira sessao ***/
+ .conteudo{
+
+    width: 100vw;
+ }
+
+ .quem_somos{
+    width: 100vw;
+    background-color: aqua;
+
+
+ }
+
+ .quem_somos .titulo{
+    font-family: Montserrat-VariableFont;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+    text-align: center;
+    margin-top: 60px;
+ }
+
+ .bloco{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .bloco p{
+    width: 50%;
+    font-family: Montserrat-VariableFont;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+    text-align: justify;
+ }
