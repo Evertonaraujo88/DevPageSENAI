@@ -15,6 +15,20 @@
 
     <link href="./assets/fontawesome/css/solid.css" rel="stylesheet">
 
+    <!-- import carrocel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Assets/jquery.bxslider.css">
+    <script src="./Assets/jquery.bxslider.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // alert('asd')
+            $('.carrocel').bxSlider({
+                infiniteLoop : false
+            })
+            slide.infiniteLoop(false)
+        })
+    </script>
 </head>
 
 <body>
@@ -64,14 +78,31 @@
 
         <section class="segunda_section">
 
-            <div class="carrocel">
-                <img src="./Assets/images/carrossel1.jpg" alt="">
-                <img src="./Assets/images/carrocel2.png" alt="">
-                <img src="./Assets/images/carrocel3.png" alt="">
+            <div class="carrocel" >
+                <div>
+                    <img src="./Assets/images/carrossel1.jpg" alt="">
+                <!-- </div>
+
+                <div> -->
+                    <img src="./Assets/images/carrocel2.png" alt="">
+                <!-- </div>
+
+                <div> -->
+                    <img src="./Assets/images/carrocel3.png" alt="">
+                </div>
+                <!-- <div></div> -->
                 <!-- <img src="./Assets/images/carrocel4.png" alt=""> -->
-                <img src="./Assets/images/carrocel5.png" alt="">
-                <img src="./Assets/images/carrocel6.png" alt="">
-                <img src="./Assets/images/carrocel7.png" alt="">
+                <div>
+                    <img src="./Assets/images/carrocel5.png" alt="">
+                <!-- </div>
+
+                <div> -->
+                    <img src="./Assets/images/carrocel6.png" alt="">
+                <!-- </div>
+                
+                <div> -->
+                    <img src="./Assets/images/carrocel7.png" alt="">
+                </div>
             </div>
         </section>
 
@@ -109,10 +140,10 @@
 
             <img class="logorodape" src="./Assets/images/petzrodape.png" alt="">
 
-            <p class="copyright"> <strong>@copyright</strong> - Todos os direitos reservados</p>
+            <p class="slogan">"Conectando corações, encontrando lares"</p>
 
             <div class="redes-sociais">
-                <p>Confira nossas redes sociais</p>
+                <p>Confira nossas redes sociais:</p>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
